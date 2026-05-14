@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Termeni și Condiții · kablu.it</title>
+
+    <meta name="robots" content="noindex, follow" />
+    <meta name="theme-color" content="#0e1629" />
+
+    <link rel="icon" href="./img/letter-k.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./img/letter-k.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Pentru politica.html și termeni.html */
+      :root {
+        --color-primary: #0e1629;
+        --color-primary-dark: #003843;
+        --color-accent: orangered;
+        --color-white: aliceblue;
+        --color-black: #101828;
+        --color-text: #0c121e;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+        line-height: 1.6;
+        color: var(--color-white);
+        background: linear-gradient(
+          to right,
+          var(--color-primary) 0%,
+          var(--color-primary-dark) 10%,
+          var(--color-primary-dark) 90%,
+          var(--color-primary) 100%
+        );
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        background: var(--color-black);
+        box-shadow: 0 8px 32px 0 rgba(19, 92, 106, 0.18);
+        border: 2px solid var(--color-white);
+      }
+
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        color: var(--color-white);
+        border-bottom: 4px solid var(--color-accent);
+        padding-bottom: 15px;
+      }
+
+      .last-update {
+        color: #7f8c8d;
+        font-size: 0.9em;
+        margin-bottom: 30px;
+        font-style: italic;
+      }
+
+      h2 {
+        font-size: 1.5em;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        color: var(--color-white);
+        padding-left: 10px;
+        border-left: 4px solid var(--color-accent);
+      }
+
+      h3 {
+        font-size: 1.2em;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: var(--color-white);
+      }
+
+      p {
+        margin-bottom: 15px;
+        text-align: justify;
+        color: var(--color-white);
+      }
+
+      ul {
+        margin: 15px 0;
+        padding-left: 30px;
+      }
+
+      li {
+        margin-bottom: 8px;
+        color: var(--color-white);
+      }
+
+      .contact-info {
+        background: var(--color-primary);
+        color: var(--color-white);
+        border: 1px solid var(--color-white);
+        padding: 15px;
+        border-radius: 5px;
+        margin: 15px 0;
+      }
+
+      .services-box {
+        background: var(--color-primary);
+        border: 1px solid var(--color-white);
+        padding: 20px;
+        border-radius: 5px;
+        margin: 15px 0;
+      }
+
+      .services-box ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .services-box li {
+        margin-bottom: 10px;
+        padding-left: 25px;
+        position: relative;
+        color: var(--color-white);
+      }
+
+      .services-box li:before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: #2196f3;
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+
+      .warning-box {
+        background: var(--color-primary);
+        border-left: 4px solid var(--color-accent);
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 3px;
+      }
+
+      .important-box {
+        background: var(--color-primary);
+        border-left: 4px solid var(--color-accent);
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 3px;
+      }
+
+      .table-responsive {
+        overflow-x: auto;
+        margin: 20px 0;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 15px 0;
+        border: 1px solid var(--color-white);
+      }
+
+      th,
+      td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid var(--color-white);
+        color: var(--color-white);
+      }
+
+      th {
+        background: var(--color-primary);
+        color: var(--color-white);
+        font-weight: bold;
+      }
+
+      tr:nth-child(even) {
+        background: var(--color-primary-dark);
+      }
+
+      .footer-note {
+        margin-top: 40px;
+        padding: 20px;
+        background: var(--color-primary);
+        color: var(--color-white);
+        border: 1px solid var(--color-white);
+        border-radius: 5px;
+        font-style: italic;
+        text-align: center;
+      }
+
+      .emoji {
+        font-size: 1.2em;
+      }
+
+      strong {
+        color: var(--color-white);
+      }
+
+      a {
+        color: var(--color-accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 20px 15px;
+        }
+
+        h1 {
+          font-size: 1.8em;
+        }
+
+        h2 {
+          font-size: 1.3em;
+        }
+
+        table {
+          font-size: 0.9em;
+        }
+
+        th,
+        td {
+          padding: 8px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="./index.html">
+        <img
+          width="64"
+          height="64"
+          src="https://img.icons8.com/sf-black/64/FFFFFF/circled-left-2--v1.png"
+          alt="circled-left-2--v1"
+        />
+      </a>
+      <h1>TERMENI ȘI CONDIȚII</h1>
+      <p class="last-update">Ultima actualizare: Noiembrie 2025</p>
+
+      <h2>1. INFORMAȚII GENERALE</h2>
+      <p>
+        Acești Termeni și Condiții reglementează utilizarea serviciilor oferite
+        de <strong>PFA Neculai Radu Constantin</strong> prin brand-ul
+        <strong>kablu.it</strong>.
+      </p>
+
+      <div class="contact-info">
+        <strong>Date de contact:</strong><br />
+        Website: kablu.it<br />
+        Email: it.kablu@gmail.com<br />
+        Telefon: 0793.093.048<br />
+      </div>
+
+      <p>
+        Prin solicitarea serviciilor noastre, sunteți de acord cu acești
+        termeni.
+      </p>
+
+      <h2>2. SERVICIILE OFERITE</h2>
+      <p>kablu.it oferă următoarele servicii de service IT:</p>
+
+      <div class="services-box">
+        <ul>
+          <li>
+            <strong>Reparații hardware</strong> - calculatoare, laptop-uri,
+            componente
+          </li>
+          <li>
+            <strong>Upgrade hardware</strong> - memorie RAM, SSD, plăci video,
+            procesoare
+          </li>
+          <li>
+            <strong>Curățare și mentenanță</strong> - curățare internă, pastă
+            termică, optimizare
+          </li>
+          <li>
+            <strong>Instalare și configurare software</strong> - sisteme de
+            operare, aplicații, drivere
+          </li>
+          <li>
+            <strong>Recuperare date</strong> - de pe hard disk-uri, SSD-uri,
+            dispozitive de stocare
+          </li>
+          <li>
+            <strong>Service console gaming</strong> - PlayStation, Xbox,
+            Nintendo
+          </li>
+          <li>
+            <strong>Builduri personalizate</strong> - asamblare PC-uri la
+            comandă
+          </li>
+          <li>
+            <strong>Reparații electronice</strong> - diagnosticare și rezolvare
+            probleme hardware
+          </li>
+        </ul>
+      </div>
+
+      <p>
+        <strong>Serviciile se desfășoară la domiciliul clientului</strong> în
+        zona de acoperire.
+      </p>
+
+      <h2>3. SOLICITAREA SERVICIILOR</h2>
+
+      <h3>3.1 Contact și Programare</h3>
+      <ul>
+        <li>Programările se confirmă telefonic sau prin mesaj</li>
+        <li>Timpul de răspuns: maxim 24 de ore în zilele lucrătoare</li>
+      </ul>
+
+      <h3>3.2 Diagnostic</h3>
+      <ul>
+        <li>
+          Diagnosticarea problemei se face inițial <strong>gratuit</strong> sau
+          la un cost stabilit în prealabil
+        </li>
+        <li>
+          După diagnostic, se oferă o estimare a costurilor și timpului de
+          rezolvare
+        </li>
+        <li>
+          Clientul decide dacă procedează cu reparația după primirea ofertei
+        </li>
+      </ul>
+
+      <h2>4. PREȚURI ȘI PLATA</h2>
+
+      <h3>4.1 Tarife</h3>
+      <ul>
+        <li>
+          Prețurile sunt comunicate
+          <strong>înainte de prestarea serviciului</strong>
+        </li>
+        <li>
+          Tarifele pot include: manoperă, deplasare, piese de schimb (dacă este
+          cazul)
+        </li>
+        <li>
+          Piese de schimb se achiziționează doar cu
+          <strong>acordul prealabil</strong> al clientului
+        </li>
+      </ul>
+
+      <h3>4.2 Modalități de Plată</h3>
+      <ul>
+        <li>Plata cu cardul (POS)</li>
+        <li>Ordin de plată (la solicitare)</li>
+      </ul>
+
+      <h2>5. GARANȚIE ȘI RESPONSABILITĂȚI</h2>
+
+      <h3>5.1 Garanție Servicii</h3>
+      <ul>
+        <li>
+          Serviciile efectuate beneficiază de
+          <strong>garanție între 7-30 zile</strong> (în funcție de tipul
+          intervenției)
+        </li>
+        <li>
+          Garanția acoperă <strong>doar problema rezolvată</strong>, nu alte
+          defecțiuni ulterioare
+        </li>
+      </ul>
+
+      <div class="warning-box">
+        <strong>Garanția NU acoperă</strong> daune cauzate de: utilizare
+        necorespunzătoare, lovituri, umiditate, manipulare de către terți
+      </div>
+
+      <h3>5.2 Piese de Schimb</h3>
+      <ul>
+        <li>
+          Piesele noi achiziționate beneficiază de garanția producătorului (6-36
+          luni, în funcție de componentă)
+        </li>
+        <li>
+          Păstrați <strong>factura/chitanța</strong> pentru validarea garanției
+        </li>
+      </ul>
+
+      <h3>5.3 Limitări de Răspundere</h3>
+      <div class="important-box">
+        <ul>
+          <li>
+            <strong>NU suntem responsabili</strong> pentru pierderea de date
+            dacă nu s-a solicitat explicit backup
+          </li>
+          <li>
+            Recomandăm <strong>întotdeauna backup</strong> înainte de orice
+            intervenție
+          </li>
+          <li>
+            NU garantăm recuperarea datelor 100%, doar depunem eforturi
+            rezonabile
+          </li>
+          <li>NU răspundem pentru daune indirecte sau pierderi de profit</li>
+        </ul>
+      </div>
+
+      <h2>6. OBLIGAȚIILE CLIENTULUI</h2>
+      <p>Clientul se obligă să:</p>
+      <ul>
+        <li>
+          Furnizeze <strong>informații corecte</strong> despre problema
+          întâmpinată
+        </li>
+        <li>
+          Asigure <strong>acces</strong> la locația unde se află echipamentul
+        </li>
+        <li>
+          <strong>Facă backup datelor importante</strong> înainte de service
+          (recomandat)
+        </li>
+        <li>Plătească serviciile conform înțelegerii</li>
+        <li>Anunțe orice <strong>problemă în perioada de garanție</strong></li>
+      </ul>
+
+      <h2>7. ANULĂRI ȘI REPROGRAMĂRI</h2>
+      <ul>
+        <li>
+          Anulările sau reprogramările se fac cu
+          <strong>minimum 2 ore înainte</strong>
+        </li>
+        <li>Anulări repetate pot duce la refuzul prestării serviciilor</li>
+        <li>
+          În caz de <strong>neprezentare</strong> la programare fără anunț, se
+          poate percepe o taxă de deplasare
+        </li>
+      </ul>
+
+      <h2>8. CONFIDENȚIALITATE</h2>
+      <ul>
+        <li>
+          Respectăm <strong>confidențialitatea datelor</strong> de pe
+          dispozitivele clienților
+        </li>
+        <li>
+          <strong>NU accesăm</strong> fișiere personale fără acordul explicit
+        </li>
+        <li>
+          După finalizarea serviciului, <strong>NU păstrăm copii</strong> ale
+          datelor dumneavoastră
+        </li>
+        <li>
+          Pentru detalii complete, consultați
+          <strong>Politica de Confidențialitate</strong>
+        </li>
+      </ul>
+
+      <h2>9. PROTECȚIA DATELOR (GDPR)</h2>
+      <p>
+        Datele personale colectate (nume, telefon, email) sunt prelucrate
+        conform <strong>GDPR</strong> și
+        <strong>Politicii de Confidențialitate</strong>. Aveți dreptul de acces,
+        rectificare și ștergere a datelor.
+      </p>
+
+      <h2>10. FORȚĂ MAJORĂ</h2>
+      <p>
+        Nu suntem responsabili pentru întârzieri sau neexecutarea serviciilor
+        cauzate de <strong>forță majoră</strong>: calamități naturale, pandemii,
+        restricții legale, etc.
+      </p>
+
+      <h2>11. SOLUȚIONAREA LITIGIILOR</h2>
+      <ul>
+        <li>
+          Încercăm rezolvarea <strong>amiabilă</strong> a oricărei nemulțumiri
+        </li>
+        <li>
+          În caz de neînțelegere, litigiile se soluționează conform
+          <strong>legislației române</strong>
+        </li>
+        <li>
+          Puteți apela la <strong>ANPC</strong> (Autoritatea Națională pentru
+          Protecția Consumatorilor) pentru reclamații
+        </li>
+      </ul>
+
+      <div class="contact-info">
+        <strong>Contact ANPC:</strong><br />
+        Website: anpc.ro<br />
+        Telefon: 021.9551
+      </div>
+
+      <h2>12. MODIFICĂRI</h2>
+      <p>
+        Ne rezervăm dreptul de a modifica acești Termeni și Condiții. Versiunea
+        actualizată va fi disponibilă pe website cu data modificării.
+      </p>
+
+      <h2>13. CONTACT</h2>
+      <p>Pentru întrebări sau nelămuriri:</p>
+      <div class="contact-info">
+        <strong>PFA Neculai Radu Constantin (kablu.it)</strong><br />
+        Email: it.kablu@gmail.com<br />
+        Telefon: 0793.093.048<br />
+        Sediu social: Aleea Dumbravița nr. 3, sector 6, București
+      </div>
+
+      <div class="footer-note">
+        Prin solicitarea serviciilor kablu.it, confirmați că ați citit, înțeles
+        și acceptat acești Termeni și Condiții.
+        <br /><br />
+        <strong>Vă mulțumim pentru încredere!</strong>
+        <span class="emoji">🔧💻</span>
+      </div>
+    </div>
+  </body>
+</html>
